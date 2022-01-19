@@ -31,5 +31,7 @@ public class Controller {
         int kCal = sw.computeKcal(sandwichName);
         return "The amount of kCal in a "+ sandwichName + "is "+ kCal;
     }
+
+    // tijd voor verandering
 }
 
