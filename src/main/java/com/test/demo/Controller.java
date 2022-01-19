@@ -32,6 +32,7 @@ public class Controller {
         return "The amount of kCal in a "+ sandwichName + "is "+ kCal;
     }
 
-    // tijd voor verandering
+    // tijd voor verandering in git master
+    // nu een verandering voor de net gemaakte branch
 }
 
