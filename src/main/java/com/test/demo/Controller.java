@@ -29,7 +29,7 @@ public class Controller {
     @GetMapping("{sandwichName}")
     public String sandwichPathVariable(@PathVariable String sandwichName){
         int kCal = sw.computeKcal(sandwichName);
-        return "The amount of kCal in a "+ sandwichName + "is "+ kCal;
+        return "The amount of kCal in a lovely "+ sandwichName + " is "+ kCal + ". So let's try it!";
     }
 
     // tijd voor verandering in git master
